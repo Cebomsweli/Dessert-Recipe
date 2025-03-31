@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Dessert Recipe App</string>
+    <string name="dessert_recipe_app">Dessert Recipe App</string>
+    <string name="view_recipe">View Recipe</string>
+    <string name="todo">TODO</string>
+    <string name="handles_the_background">Handles the background</string>
+    <string name="banana_pudding">Banana Pudding</string>
+    <string name="berry_sorbet">Berry Sorbet</string>
+    <string name="fruit_salad">Fruit Salad</string>
+    <string name="peanut_butter_cake">Peanut Butter Cake</string>
+    <string name="view_recipes">View Recipe</string>
+    <string name="dessert_name">Dessert Name</string>
+    <string name="dessert_image">Dessert Image</string>
+    <string name="default_text">Default Text</string>
+    <string name="recipes">Dessert Recipe</string>
+    <string name="txt">txt</string>
+    <string name="_1_fresh_strawberries">1. Fresh strawberries</string>
+    <string name="_2_pineapple_chunks">2. Pineapple chunks</string>
+    <string name="_3_whipped_cream">3. Whipped cream</string>
+    <string name="_4_honey">4. Honey</string>
+</resources>

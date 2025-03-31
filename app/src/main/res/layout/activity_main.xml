@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    tools:context=".MainActivity">
+
+    <!-- Setting Background-->
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:contentDescription="@string/handles_the_background"
+        android:scaleType="centerCrop"
+        android:src="@drawable/chocolate_mugcake"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="-29dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="328dp"
+        android:layout_height="79dp"
+        android:text="@string/dessert_recipe_app"
+        android:textColor="@color/material_dynamic_neutral100"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.059" />
+
+    <Button
+        android:id="@+id/btn_berry_sorbet"
+        android:layout_width="270dp"
+        android:layout_height="76dp"
+        android:layout_marginTop="108dp"
+        android:text="@string/berry_sorbet"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_peanut_butter_cake"
+        android:layout_width="261dp"
+        android:layout_height="78dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/peanut_butter_cake"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_banana_pudding"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_fruit_salad"
+        android:layout_width="263dp"
+        android:layout_height="69dp"
+        android:layout_marginTop="44dp"
+        android:text="@string/fruit_salad"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btn_peanut_butter_cake"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_banana_pudding"
+        android:layout_width="268dp"
+        android:layout_height="71dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/banana_pudding"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        app:layout_constraintTop_toBottomOf="@+id/btn_berry_sorbet"
+        tools:ignore="MissingConstraints"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteX="77dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

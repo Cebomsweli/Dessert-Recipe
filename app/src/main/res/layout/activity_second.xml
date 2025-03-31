@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:layout_marginTop="60dp"
+        android:text="@string/default_text"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:gravity="center" />
+
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="309dp"
+        android:layout_height="272dp"
+        android:layout_marginTop="140dp"
+        android:contentDescription="@string/dessert_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/banana_pudding"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView2" />
+
+    <Button
+        android:id="@+id/btnViewRecipes"
+        android:layout_width="211dp"
+        android:layout_height="65dp"
+        android:layout_marginTop="88dp"
+        android:text="@string/view_recipes"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textSize="19sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="MissingConstraints" />
+</androidx.constraintlayout.widget.ConstraintLayout>
